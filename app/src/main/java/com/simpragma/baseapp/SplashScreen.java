@@ -7,6 +7,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.crashlytics.android.Crashlytics;
+import com.google.gson.Gson;
+import com.simpragma.baseapp.models.GsonData;
 import com.squareup.picasso.Picasso;
 
 import org.slf4j.Logger;
@@ -35,5 +37,12 @@ public class SplashScreen extends Activity {
         title.setText("Hello");
         Picasso.with(SplashScreen.this).load("http://i.imgur.com/DvpvklR.png").error(R.mipmap.ic_launcher).into(imageView);
         LOG.debug("This is a fine start {}",getApplicationContext().getApplicationInfo().className);
+
+        //--- GSON example ---------//
+        GsonData data = new GsonData();
+        data.setId("1");
+        data.setName("Swagata");
+        Gson gson = new Gson();
+        LOG.debug("GsonData {}",gson.toJson(data));
     }
 }

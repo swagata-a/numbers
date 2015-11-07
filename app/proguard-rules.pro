@@ -15,6 +15,7 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+-ignorewarnings
 -dontwarn com.squareup.okhttp.**
 -keep class butterknife.** { *; }
 -dontwarn butterknife.internal.**
