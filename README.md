@@ -22,7 +22,7 @@
 
 ## Tools already configured:
 
-### [Crashlytics] [5]: 
+### [Crashlytics] [5]:
 We have configured the most used and very lightweight crash reporting system Crashlytics for you. Though it is installed for you, you will need to configure it before it becomes usable.
 
 Below steps will help you to get it running:
@@ -62,6 +62,9 @@ Picasso is one of the easiest way to handle Image download and handling all imag
 ### [sl4j] [8]
 Your loggig framework is ready and running. All you have to do is get a reference and get going in every class.
 
+### [Gson] [9]
+Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object.
+I have given a very basoc example for Gson code in SplashScreen. In case you are looking for more examples, [here you go] [10]!
 
 [1]:http://stackoverflow.com/questions/16804093/android-studio-rename-package
 [2]:https://developer.android.com/sdk/index.html
@@ -71,4 +74,6 @@ Your loggig framework is ready and running. All you have to do is get a referenc
 [6]:http://jakewharton.github.io/butterknife/
 [7]:http://square.github.io/picasso/
 [8]:http://tony19.github.io/logback-android/
+[9]:https://sites.google.com/site/gson/gson-user-guide
+[10]:http://www.mkyong.com/java/how-do-convert-java-object-to-from-json-format-gson-api/
 [fork]: https://confluence.atlassian.com/bitbucket/fork-a-repo-compare-code-and-create-a-pull-request-mac-osx-linux-271942986.html
