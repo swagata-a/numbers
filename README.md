@@ -1,6 +1,6 @@
 # Welcome to base station, the launching pad for your Android projects
 
-### Before you jump in consider the following facts:
+### Before you jump in, consider the following facts:
 
 - This is a work under experiment. I have tried my best to remove integration issues for you. But you can expect some odd issues crop up from time to time.
 - **Never** use the code in this repo *as-is*. Always fork it, change the project package name and start working.
@@ -47,7 +47,7 @@ I have put some boilerplate code in SplashScreen.java so that you can see how it
     @Bind(R.id.image_logo)
     ImageView imageView;
 ```
-Above lines bind two of the views with the respective refeences in a class. PLaying with them is even easier:
+Above lines bind two of the views with the respective refeences in a class. Playing with them is even easier:
 
 ```sh
     ButterKnife.bind(this);
@@ -60,7 +60,7 @@ hmmm what is Picasso? Hold tight, that is our next tool.
 Picasso is one of the easiest way to handle Image download and handling all image related operations in Android. Follow the url to get a glance on what it is and what it can do.
 
 ### [sl4j] [8]
-Your loggig framework is ready and running. All you have to do is get a reference and get going in every class.
+Your logging framework is ready and running. All you have to do is get a reference and get going in every class.
 
 ### [Gson] [9]
 Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object.
