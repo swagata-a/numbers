@@ -64,7 +64,7 @@ Your loggig framework is ready and running. All you have to do is get a referenc
 
 ### [Gson] [9]
 Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object.
-I have given a very basoc example for Gson code in SplashScreen. In case you are looking for more examples, [here you go] [10]!
+I have given a very basic example for Gson code in SplashScreen. In case you are looking for more examples, [here you go] [10]!
 
 [1]:http://stackoverflow.com/questions/16804093/android-studio-rename-package
 [2]:https://developer.android.com/sdk/index.html
