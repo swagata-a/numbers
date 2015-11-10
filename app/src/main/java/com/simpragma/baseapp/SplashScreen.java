@@ -31,7 +31,6 @@ public class SplashScreen extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.splash_screen);
         ButterKnife.bind(this);
         title.setText("Hello");

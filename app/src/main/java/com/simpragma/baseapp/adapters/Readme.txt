@@ -1,0 +1,1 @@
+Here we store all adapters used in the application

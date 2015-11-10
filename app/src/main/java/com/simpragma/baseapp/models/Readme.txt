@@ -1,0 +1,1 @@
+The package models is used to store your POJO classes. Do not keep anything else here
